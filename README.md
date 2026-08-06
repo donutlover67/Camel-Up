@@ -19,6 +19,4 @@ In-game "advice" mode so human players can see the same odds the AI sees.
 *The board renders in the terminal with colorama for colored 
 camels, dice, and betting tickets.*
 
-run code:
-pip install colorama
-python CamelUp.py
+Run with: python CamelUp.py (requires colorama — pip install colorama)
