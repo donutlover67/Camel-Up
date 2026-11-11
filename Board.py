@@ -55,7 +55,7 @@ class Board:
         if steps <= 0 or color not in self.STYLES:
             return
 
-        # find the tile the camel is on, pick it (and anyone stacked on top) up
+        # find the tile the camel is on, pick it and anyone stacked on top up
         for tile_index in range(len(self.track)):
             stack = self.track[tile_index]
             if color in stack:
