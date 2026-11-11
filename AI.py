@@ -8,7 +8,7 @@ except ModuleNotFoundError:
     print("Board.py is not found.")
     pass
 
-# how many times we simulate the rest of the leg to estimate odds
+
 TRIALS = 2000
 
 
